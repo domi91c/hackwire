@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.2'
+ruby '2.2.3'
 gem 'rails', '4.2.5'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -31,6 +31,7 @@ group :development do
   gem 'guard-rspec'
   gem 'hub', :require=>nil
   gem 'quiet_assets'
+
   gem 'rails_layout'
   gem 'rb-fchange', :require=>false
   gem 'rb-fsevent', :require=>false
@@ -54,3 +55,7 @@ group :test do
   gem 'launchy'
   gem 'selenium-webdriver'
 end
+
+
+gem 'bootstrap', '~> 4.0.0.alpha3'
+
