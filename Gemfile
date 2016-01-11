@@ -58,4 +58,7 @@ end
 
 
 gem 'bootstrap', '~> 4.0.0.alpha3'
+gem 'commontator', '~> 4.10.0'
+gem "paperclip", "~> 4.3"
+gem 'meta_request'
 
